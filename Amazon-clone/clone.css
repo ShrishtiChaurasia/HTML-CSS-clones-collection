@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-box{
+    background-color: #0f1111;
+    display: flex;
+    top: 0;
+    position: sticky;
+    height: 60px;
+    width: 100%;
+}
+.amazon-logo{
+    margin: 0px 0px 0px 1px;
+    padding: 4px 0px 0px;
+}
+.logo1{
+    margin: 1px;
+    padding: 1px 8px 0px 6px;
+}
+img{
+    height: 50px;
+}
+.deliver-data{
+    margin: 5px 2px 5px 0px;
+    padding: 0px 9px;
+}
+.deliver-main-data{
+    display: flex;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #ffffff;
+    margin-top: 0.8rem;
+}
+.fa-location-dot{
+    margin: 8px 0px 0px;
+}
+.deliver{
+    margin-left: 0.5rem;
+    font-weight: 700;
+}
+.deliver .in{
+    color: #cccccc;
+    font-size: 12px;
+    font-weight: 400;
+}
+.search-box{
+    padding: 10px 4px 10px 3px;
+    display: flex;
+}
+.search-data{
+    background-color: #e6e6e6;
+    padding: 0px 0px 0px 5px;
+    padding: 0.6rem 0 0 0.4rem;
+}
+.search-button{
+    background-color: #ffffff;
+    display: flex;
+    width: 25rem;
+}
+.search-icon{
+    background-color: rgb(212, 169, 28);
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-button input{
+    margin: 7px 10px 10px 0px;
+    border: transparent;
+    text-decoration: none;
+    width: 92%;
+    margin-left: 1rem;
+    font-size: 14px;
+}
+.england-in{
+    padding: 0px 9px 5px;
+    margin-top: 1rem;
+}
+.england{
+    display: flex;
+    margin: 2px 0px 0px;
+    padding: 3px 0px 0px;
+}
+.inner{
+    color: #ffffff;
+    display: flex;
+}
+.flag img{
+    height: 1.5rem;
+    width: 2rem;
+}
+.en, .drop{
+    margin: 6px 0px 0px 2px;
+}
+.en{
+    margin-left: 0.5rem;
+}
+.hello{
+    padding: 0px 9px 10px;
+}
+.head1{
+    margin-top: 0.6rem;
+    color: #d6d6d6;
+    font-size: 14px;
+}
+.head2{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.returns{
+    padding: 0px 9px 10px;
+    color: #ffffff;
+}
+.return1{
+    margin: 0px 1px 1px;
+    margin-top: 0.6rem;
+    font-size: 14px;
+}
+.return1 p{
+    font-size: 16px;
+    font-weight: 700;
+}
+.fa-cart-shopping{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+.cart{
+    padding: 0px 9px 10px;
+}
+.second-head{
+    height: 40px;
+    background-color: #222929;
+    display: flex;
+}
+.all{
+    padding: 8px 9px;
+}
+.all-in{
+    color: #ffffff;
+    font-size: 16px;
+    display: flex;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.all p{
+    padding: 0px 0px 0px 5px;
+}
+.customer, .reg, .gift, .sell, .deals{
+    margin: 5px 0px 6px;
+    padding: 8px 9px;
+}
+.customer, .reg, .sell, .gift, .deals p{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.background{
+    background-image: url(amazonback.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.data1{
+    background-color: #f5f6f6;
+    padding: 10px 14px;
+    font-size: 16px;
+    color: #0f1111;
+    position: absolute;
+    left: 2.5rem;
+    top: 15rem;
+}
+.all-cards{
+    position: absolute;
+    top: 20rem;
+    left: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.card1{
+    background-color: #ffffff;
+    padding: 20px 0px 15px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 0.5 rgb(168, 162, 162);
+}
+.card1 p{
+    font-size: 21px;
+    color: #0f1111;
+}
+.images1{
+    margin: 0px 0px 44px;
+    padding: 0px 20px;
+}
+.acc1{
+    margin: 6px 0px 8px;
+    display: flex;
+}
+.acc1-data{
+    font-size: 18px;
+    display: flex;
+    gap: 5rem;
+}
+.keyboard img{
+    height: 6rem;
+    width: 9rem;
+}
+.card1 p{
+    margin-left: 14px;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+.baby img{
+    height: 15rem;
+    width: 15rem;
+}
+.all-cards a:hover{
+    color: red;
+}
+.all-cards img{
+    cursor: pointer;
+}
+.electronic img{
+    height: 15rem;
+    width: 15rem;
+}
